@@ -1,29 +1,33 @@
 # hinge
+#商店小程序
 
-##商店小程序
+项目目录结构
 
-##项目目录
+-----------------<br>
+|<br>
+---img<br>
+|      ---icon<br>
+|      ---toolbar<br>
+---pages<br>
+|      ---cart<br>
+|      ---category<br>
+|      ---home<br>
+|      ---my<br>
+|      ---order<br>
+|      ---pay-result<br>
+|      ---product<br>
+|      ---theme<br>
+|      ---tpls<br>
+---utils<br>
+|<br>
+---app.js<br>
+---app.json<br>
+---app.wss<br>
 
------------------
-|
----img
-|      ---icon
-|      ---toolbar
----pages
-|      ---cart
-|      ---category
-|      ---home
-|      ---my
-|      ---order
-|      ---pay-result
-|      ---product
-|      ---theme
-|      ---tpls
----utils
-|
----app.js
----app.json
----app.wss
+img保存的是项目中使用的图片<br>
+pages是项目模块对应目录<br>
+pages/tpls是公共模板<br>
+utls是公共js库<br>
 
-img保存的是项目中使用的图片，pages是项目模块对于目录pages/tpls是公共模板
-utls是公共js库
+
+安装在utils 配置config api网址
